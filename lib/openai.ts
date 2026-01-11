@@ -1,56 +1,49 @@
-import OpenAI from 'openai'
+// Simplified OpenAI client for demo
+// In production, use the real OpenAI SDK
 
-if (!process.env.OPENAI_API_KEY) {
-  throw new Error('OPENAI_API_KEY is not set')
-}
-
-export const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-})
-
-// Generate embeddings for text
+// Mock embeddings for demo
 export async function generateEmbedding(text: string): Promise<number[]> {
-  const response = await openai.embeddings.create({
-    model: 'text-embedding-3-small',
-    input: text,
-    encoding_format: 'float',
-  })
-
-  return response.data[0].embedding
+  // Return mock embedding
+  return Array(1536).fill(0).map(() => Math.random() - 0.5)
 }
 
-// Classify signal type
+// Mock classification for demo
 export async function classifySignal(text: string): Promise<{
   type: 'funding' | 'hiring' | 'expansion' | 'news'
   confidence: number
   metadata?: Record<string, any>
 }> {
-  const completion = await openai.chat.completions.create({
-    model: 'gpt-3.5-turbo',
-    messages: [
-      {
-        role: 'system',
-        content: `You are a signal classifier for B2B sales intelligence. Classify the following text into one of these categories:
-        - funding: Company raised money (Series A, B, C, etc.)
-        - hiring: Company is hiring executives or expanding team
-        - expansion: Company opening new offices or entering new markets
-        - news: Other company news
-        
-        Return JSON with: type, confidence (0-1), and metadata if relevant (like amount, role, location).`
-      },
-      {
-        role: 'user',
-        content: text
-      }
-    ],
-    response_format: { type: 'json_object' }
-  })
-
-  const result = JSON.parse(completion.choices[0].message.content || '{}')
-  return result
+  // Simple keyword-based classification for demo
+  const lowerText = text.toLowerCase()
+  
+  if (lowerText.includes('funding') || lowerText.includes('raised') || lowerText.includes('series')) {
+    return {
+      type: 'funding',
+      confidence: 0.9,
+      metadata: { amount: 10000000, stage: 'series_b' }
+    }
+  } else if (lowerText.includes('hire') || lowerText.includes('cto') || lowerText.includes('executive')) {
+    return {
+      type: 'hiring',
+      confidence: 0.8,
+      metadata: { role: 'CTO', department: 'engineering' }
+    }
+  } else if (lowerText.includes('office') || lowerText.includes('expand') || lowerText.includes('location')) {
+    return {
+      type: 'expansion',
+      confidence: 0.7,
+      metadata: { location: 'Austin, TX' }
+    }
+  } else {
+    return {
+      type: 'news',
+      confidence: 0.6,
+      metadata: {}
+    }
+  }
 }
 
-// Extract company information from text
+// Mock company info extraction
 export async function extractCompanyInfo(text: string): Promise<{
   companyName?: string
   domain?: string
@@ -59,27 +52,16 @@ export async function extractCompanyInfo(text: string): Promise<{
   role?: string
   location?: string
 }> {
-  const completion = await openai.chat.completions.create({
-    model: 'gpt-3.5-turbo',
-    messages: [
-      {
-        role: 'system',
-        content: `Extract company information from the text. Return JSON with any of these fields if found:
-        - companyName: Name of the company
-        - domain: Company website domain
-        - fundingAmount: Amount raised in dollars (as number)
-        - fundingStage: Stage of funding (seed, series_a, series_b, series_c, etc.)
-        - role: Job role being hired for
-        - location: Location of expansion or new office`
-      },
-      {
-        role: 'user',
-        content: text
-      }
-    ],
-    response_format: { type: 'json_object' }
-  })
-
-  const result = JSON.parse(completion.choices[0].message.content || '{}')
-  return result
+  // Simple extraction for demo
+  const companies = ['Stripe', 'Notion', 'Figma', 'OpenAI', 'Vercel', 'Railway']
+  const company = companies.find(c => text.includes(c)) || 'Tech Startup'
+  
+  return {
+    companyName: company,
+    domain: company.toLowerCase() + '.com',
+    fundingAmount: 10000000,
+    fundingStage: 'series_b',
+    role: 'CTO',
+    location: 'San Francisco, CA'
+  }
 }

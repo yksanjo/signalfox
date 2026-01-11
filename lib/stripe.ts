@@ -1,22 +1,13 @@
-import Stripe from 'stripe'
+// Simplified Stripe client for demo
+// In production, use the real Stripe SDK
 
-if (!process.env.STRIPE_SECRET_KEY) {
-  throw new Error('STRIPE_SECRET_KEY is not set')
-}
-
-export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: '2023-10-16',
-  typescript: true,
-})
-
-// Price IDs for different plans
 export const PRICE_IDS = {
-  starter_monthly: process.env.STRIPE_STARTER_PRICE_ID || 'price_starter_monthly',
-  pro_yearly: process.env.STRIPE_PRO_PRICE_ID || 'price_pro_yearly',
-  team_monthly: process.env.STRIPE_TEAM_PRICE_ID || 'price_team_monthly',
+  starter_monthly: 'price_starter_monthly',
+  pro_yearly: 'price_pro_yearly',
+  team_monthly: 'price_team_monthly',
 }
 
-// Create a checkout session
+// Mock functions for demo
 export async function createCheckoutSession({
   priceId,
   customerEmail,
@@ -30,44 +21,15 @@ export async function createCheckoutSession({
   successUrl: string
   cancelUrl: string
 }) {
-  const session = await stripe.checkout.sessions.create({
-    customer_email: customerEmail,
-    line_items: [
-      {
-        price: priceId,
-        quantity: 1,
-      },
-    ],
-    mode: 'subscription',
-    success_url: successUrl,
-    cancel_url: cancelUrl,
-    metadata: {
-      userId,
-    },
-  })
-
-  return session
+  console.log('Mock checkout session created for:', customerEmail)
+  
+  return {
+    id: 'mock_session_' + Date.now(),
+    url: successUrl + '?session_id=mock&success=true',
+  }
 }
 
-// Handle webhook events
-export async function handleStripeWebhook(event: Stripe.Event) {
-  switch (event.type) {
-    case 'checkout.session.completed':
-      const session = event.data.object as Stripe.Checkout.Session
-      // Update user subscription in database
-      console.log('Checkout session completed:', session.id)
-      break
-    
-    case 'customer.subscription.updated':
-      const subscription = event.data.object as Stripe.Subscription
-      // Update subscription status in database
-      console.log('Subscription updated:', subscription.id)
-      break
-    
-    case 'customer.subscription.deleted':
-      const deletedSubscription = event.data.object as Stripe.Subscription
-      // Mark subscription as canceled in database
-      console.log('Subscription deleted:', deletedSubscription.id)
-      break
-  }
+export async function handleStripeWebhook(event: any) {
+  console.log('Mock webhook handled:', event.type)
+  return { processed: true }
 }
