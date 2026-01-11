@@ -23,13 +23,13 @@ export async function sendSignalNotification(email: string, signal: any) {
 
   try {
     await resend.emails.send({
-      from: 'DataFox <alerts@datafox.app>',
+      from: 'SignalFox <alerts@signalfox.app>',
       to: email,
       subject: `${signalTypeEmoji} New Signal: ${signal.company.name} - ${signal.title}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 32px; text-align: center; color: white;">
-            <h1 style="margin: 0; font-size: 24px;">DataFox Signal Alert</h1>
+            <h1 style="margin: 0; font-size: 24px;">SignalFox Signal Alert</h1>
             <p style="margin: 8px 0 0; opacity: 0.9;">Intelligence for B2B Sales</p>
           </div>
           
@@ -64,13 +64,13 @@ export async function sendSignalNotification(email: string, signal: any) {
                 View in Dashboard
               </a>
               <p style="margin: 16px 0 0; color: #6b7280; font-size: 14px;">
-                This signal was detected by DataFox's AI monitoring system.
+                This signal was detected by SignalFox's AI monitoring system.
               </p>
             </div>
           </div>
           
           <div style="padding: 24px; background: #f9fafb; text-align: center; color: #6b7280; font-size: 14px;">
-            <p style="margin: 0 0 8px;">You received this email because you're tracking ${signal.company.name} on DataFox.</p>
+            <p style="margin: 0 0 8px;">You received this email because you're tracking ${signal.company.name} on SignalFox.</p>
             <p style="margin: 0;">
               <a href="${process.env.APP_URL}/settings/notifications" style="color: #4f46e5;">Manage notifications</a> | 
               <a href="${process.env.APP_URL}/unsubscribe" style="color: #4f46e5;">Unsubscribe</a>
@@ -93,20 +93,20 @@ export async function sendWelcomeEmail(email: string, name?: string) {
 
   try {
     await resend.emails.send({
-      from: 'DataFox <welcome@datafox.app>',
+      from: 'SignalFox <welcome@signalfox.app>',
       to: email,
-      subject: 'Welcome to DataFox! Start tracking sales signals',
+      subject: 'Welcome to SignalFox! Start tracking sales signals',
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 32px; text-align: center; color: white;">
-            <h1 style="margin: 0; font-size: 24px;">Welcome to DataFox! 🎉</h1>
+            <h1 style="margin: 0; font-size: 24px;">Welcome to SignalFox! 🎉</h1>
             <p style="margin: 8px 0 0; opacity: 0.9;">Your sales intelligence platform</p>
           </div>
           
           <div style="padding: 32px; background: white;">
             <h2 style="margin: 0 0 16px; color: #111827;">Hi ${name || 'there'},</h2>
             <p style="margin: 0 0 24px; color: #374151; line-height: 1.6;">
-              Welcome to DataFox! You're now ready to start tracking sales signals from companies you want to sell to.
+              Welcome to SignalFox! You're now ready to start tracking sales signals from companies you want to sell to.
             </p>
             
             <div style="background: #f0f9ff; border-radius: 8px; padding: 24px; margin-bottom: 24px;">
@@ -130,8 +130,8 @@ export async function sendWelcomeEmail(email: string, name?: string) {
           </div>
           
           <div style="padding: 24px; background: #f9fafb; text-align: center; color: #6b7280; font-size: 14px;">
-            <p style="margin: 0;">You're receiving this email because you signed up for DataFox.</p>
-            <p style="margin: 16px 0 0; font-size: 12px;">© ${new Date().getFullYear()} DataFox. All rights reserved.</p>
+            <p style="margin: 0;">You're receiving this email because you signed up for SignalFox.</p>
+            <p style="margin: 16px 0 0; font-size: 12px;">© ${new Date().getFullYear()} SignalFox. All rights reserved.</p>
           </div>
         </div>
       `,

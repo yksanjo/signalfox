@@ -67,7 +67,7 @@ export default function Features() {
           <div className="max-w-3xl mx-auto text-center">
             <h3 className="text-2xl font-bold">Built for Soundraw BD Team</h3>
             <p className="mt-4 text-lg">
-              "We use DataFox daily to identify companies that just raised funding and are expanding their teams. 
+              "We use SignalFox daily to identify companies that just raised funding and are expanding their teams. 
               It's our secret weapon for outbound sales."
             </p>
             <div className="mt-6">

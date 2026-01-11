@@ -7,7 +7,7 @@ import Navbar from '@/components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DataFox - Signal Tracker for B2B Sales',
+  title: 'SignalFox - Signal Tracker for B2B Sales',
   description: 'AI company intelligence for sales teams. Track funding rounds, hiring, and expansion signals.',
 }
 

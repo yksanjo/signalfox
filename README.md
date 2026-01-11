@@ -1,6 +1,6 @@
-# DataFox - Signal Tracker for B2B Sales
+# SignalFox - Signal Tracker for B2B Sales
 
-A modern rebuild of DataFox (acquired by Oracle in 2018, then killed) - AI company intelligence for sales teams.
+A modern signal intelligence platform for sales teams - track funding rounds, hiring, and expansion signals from companies you want to sell to.
 
 ## What It Does
 - Tracks signals from Crunchbase, LinkedIn, press releases
@@ -50,7 +50,7 @@ npm run dev
 
 ## Project Structure
 ```
-datafox/
+signalfox/
 ├── app/                 # Next.js app directory
 ├── components/          # React components
 ├── lib/                # Utility functions

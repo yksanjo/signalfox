@@ -9,7 +9,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary-600 rounded-lg"></div>
-              <span className="text-xl font-bold text-gray-900">DataFox</span>
+              <span className="text-xl font-bold text-gray-900">SignalFox</span>
             </Link>
             <div className="hidden md:flex ml-10 space-x-8">
               <Link href="/dashboard" className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium">
