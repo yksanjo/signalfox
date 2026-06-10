@@ -2,7 +2,9 @@
 
 ## 🎯 **What We Built**
 
-**SignalFox** is a modern signal intelligence platform for B2B sales teams that tracks funding rounds, hiring, and expansion signals from companies you want to sell to.
+**SignalFox** is a modern signal intelligence platform for B2B sales teams that
+tracks funding rounds, hiring, and expansion signals from companies you want to
+sell to.
 
 ## 🚀 **Live Deployment**
 

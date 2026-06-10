@@ -37,7 +37,8 @@
 ### Launch Strategy
 
 1. **r/sales Launch** (500K+ members)
-   - Title: "I built a ZoomInfo alternative for $99/month - tracks funding, hiring, expansion"
+   - Title: "I built a ZoomInfo alternative for $99/month - tracks funding,
+     hiring, expansion"
    - Content: Show product, pricing, use cases
    - Offer: First 50 get lifetime 20% discount
 

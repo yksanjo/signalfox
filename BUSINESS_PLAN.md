@@ -2,9 +2,15 @@
 
 ## Executive Summary
 
-DataFox is a modern rebuild of the original DataFox (acquired by Oracle in 2018 for $100M). We provide AI-powered company intelligence for B2B sales teams, tracking signals like funding rounds, hiring, and expansion from sources like Crunchbase, LinkedIn, and press releases.
+DataFox is a modern rebuild of the original DataFox (acquired by Oracle in 2018
+for $100M). We provide AI-powered company intelligence for B2B sales teams,
+tracking signals like funding rounds, hiring, and expansion from sources like
+Crunchbase, LinkedIn, and press releases.
 
-**Market Opportunity**: Every B2B sales team needs to know when target accounts have money to spend (just raised funding) or are expanding (hiring, opening offices). Current solutions like ZoomInfo cost $15,000+/year. We charge $99/month.
+**Market Opportunity**: Every B2B sales team needs to know when target accounts
+have money to spend (just raised funding) or are expanding (hiring, opening
+offices). Current solutions like ZoomInfo cost $15,000+/year. We charge
+$99/month.
 
 **Revenue Target**: $30,000 ARR from first 100 customers at $299/year upfront.
 
@@ -21,8 +27,10 @@ B2B sales teams waste time on:
 
 DataFox provides:
 
-1. **Real-time signal tracking** - Automated scraping of Crunchbase, LinkedIn, press releases
-2. **AI-powered classification** - OpenAI identifies funding, hiring, expansion signals
+1. **Real-time signal tracking** - Automated scraping of Crunchbase, LinkedIn,
+   press releases
+2. **AI-powered classification** - OpenAI identifies funding, hiring, expansion
+   signals
 3. **Instant alerts** - Email/Slack notifications when important signals detected
 4. **Affordable pricing** - $99/month vs ZoomInfo's $15K+/year
 

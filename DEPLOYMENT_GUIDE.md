@@ -126,7 +126,7 @@ npx prisma db push
 2. Create account or log in
 3. Enable test mode first, then live mode
 
-### 2. Get API Keys
+### 2. Get Stripe API Keys
 
 1. Go to Developers → API Keys
 2. Copy:
@@ -161,7 +161,7 @@ npx prisma db push
 2. Create account or log in
 3. Go to API Keys
 
-### 2. Get API Key
+### 2. Get OpenAI API Key
 
 1. Click "Create new secret key"
 2. Copy key: `sk-...`
@@ -175,7 +175,7 @@ npx prisma db push
 2. Create account or log in
 3. Go to API Keys
 
-### 2. Get API Key
+### 2. Get Resend API Key
 
 1. Click "Create API Key"
 2. Copy key: `re_...`
@@ -196,7 +196,7 @@ npx prisma db push
 2. Create account or log in
 3. Go to Settings → Integrations
 
-### 2. Get API Key
+### 2. Get Apify API Key
 
 1. Click "Create API token"
 2. Copy key: `apify_api_...`
@@ -478,6 +478,8 @@ Your SignalFox application is now production-ready. You have:
 3. Collect feedback
 4. Iterate and improve
 
-**Remember:** The original DataFox sold for $100M to Oracle. Your SignalFox is positioned to capture the same market with better technology at 1/10th the price.
+**Remember:** The original DataFox sold for $100M to Oracle. Your SignalFox is
+positioned to capture the same market with better technology at 1/10th the
+price.
 
 Good luck! 🚀

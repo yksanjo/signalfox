@@ -55,7 +55,8 @@ Try it free: https://signal-fox-sandy.vercel.app
 ### LinkedIn Post
 
 ```text
-🎯 Tired of missing sales opportunities because you didn't know a company just raised funding?
+🎯 Tired of missing sales opportunities because you didn't know a company just
+raised funding?
 
 I was too. That's why I built SignalFox.
 
@@ -65,7 +66,8 @@ SignalFox monitors companies for key signals:
 • Expansion announcements
 • Leadership changes
 
-Our AI analyzes these signals and alerts you in real-time, so you can reach out at the perfect moment.
+Our AI analyzes these signals and alerts you in real-time, so you can reach out
+at the perfect moment.
 
 Why SignalFox wins:
 ✅ 90% cheaper than ZoomInfo ($99 vs $1,250+/month)
@@ -95,7 +97,8 @@ Learn more: https://signal-fox-sandy.vercel.app
 **Body:**
 Hi [Name],
 
-I noticed you're in B2B sales at [Company]. How do you currently track companies for sales signals like funding rounds or hiring sprees?
+I noticed you're in B2B sales at [Company]. How do you currently track companies
+for sales signals like funding rounds or hiring sprees?
 
 Most sales teams I talk to either:
 
@@ -111,7 +114,8 @@ SignalFox automatically tracks companies for:
 • Expansion announcements (who's entering new markets)
 • Leadership changes (new decision makers)
 
-Our AI analyzes these signals and sends you real-time alerts, so you can reach out at the perfect moment.
+Our AI analyzes these signals and sends you real-time alerts, so you can reach
+out at the perfect moment.
 
 Pricing:
 • Starter: $99/month (50 companies)
@@ -129,7 +133,8 @@ Best,
 [Your Name]
 Founder, SignalFox
 
-P.S. We've already helped sales teams at [Company 1], [Company 2], and [Company 3] close more deals by reaching out at the right time.
+P.S. We've already helped sales teams at [Company 1], [Company 2], and [Company
+3] close more deals by reaching out at the right time.
 
 ### Newsletter Announcement
 
@@ -138,7 +143,8 @@ P.S. We've already helped sales teams at [Company 1], [Company 2], and [Company 
 **Body:**
 Hi [Subscriber],
 
-I'm excited to announce SignalFox - an AI-powered sales intelligence platform that's 90% cheaper than ZoomInfo.
+I'm excited to announce SignalFox - an AI-powered sales intelligence platform
+that's 90% cheaper than ZoomInfo.
 
 **The Problem:**
 Sales teams miss opportunities because they don't know when companies:
@@ -148,7 +154,8 @@ Sales teams miss opportunities because they don't know when companies:
 • Bring on new executives (who might be more open)
 
 **The Solution: SignalFox**
-SignalFox automatically tracks companies for these signals and sends you real-time alerts with AI-powered insights.
+SignalFox automatically tracks companies for these signals and sends you
+real-time alerts with AI-powered insights.
 
 **Key Features:**
 🤖 AI-powered signal classification
@@ -169,7 +176,8 @@ First 50 customers get lifetime 20% discount.
 <https://signal-fox-sandy.vercel.app>
 
 **Why I Built This:**
-After 10 years in B2B sales, I got tired of paying $1,250+/month for ZoomInfo. I wanted something affordable, modern, and AI-powered.
+After 10 years in B2B sales, I got tired of paying $1,250+/month for ZoomInfo. I
+wanted something affordable, modern, and AI-powered.
 
 SignalFox is that solution.
 
@@ -182,16 +190,19 @@ Founder, SignalFox
 ## 🎥 Video Script (60-second explainer)
 
 **[0-5s] Hook:**
-"Tired of missing sales opportunities because you didn't know a company just raised funding?"
+"Tired of missing sales opportunities because you didn't know a company just
+raised funding?"
 
 **[5-15s] Problem:**
-"Most sales teams either pay $1,250+/month for tools like ZoomInfo... or manually search and miss opportunities."
+"Most sales teams either pay $1,250+/month for tools like ZoomInfo... or
+manually search and miss opportunities."
 
 **[15-30s] Solution:**
 "That's why I built SignalFox. AI-powered sales intelligence that's 90% cheaper."
 
 **[30-45s] Features:**
-"SignalFox automatically tracks companies for funding rounds, hiring sprees, and expansion signals. Our AI analyzes these and sends you real-time alerts."
+"SignalFox automatically tracks companies for funding rounds, hiring sprees, and
+expansion signals. Our AI analyzes these and sends you real-time alerts."
 
 **[45-55s] Social Proof:**
 "Already helping sales teams close more deals by reaching out at the perfect moment."
@@ -214,7 +225,8 @@ Founder, SignalFox
 • Saved 8 hours/week on research
 • Closed 2 deals from signal-based outreach
 
-**Quote:** "SignalFox paid for itself in the first week with one deal we would have otherwise missed."
+**Quote:** "SignalFox paid for itself in the first week with one deal we would
+have otherwise missed."
 
 ### Case Study 2: VC Firm
 
@@ -229,7 +241,8 @@ Founder, SignalFox
 • Better portfolio management
 • Identified 5 new investment opportunities
 
-**Quote:** "SignalFox helps us support our portfolio companies better and identify new investment opportunities."
+**Quote:** "SignalFox helps us support our portfolio companies better and
+identify new investment opportunities."
 
 ## 🎯 Target Keywords for SEO
 
@@ -321,10 +334,12 @@ Founder, SignalFox
 ### FAQ
 
 **Q: How is SignalFox different from ZoomInfo?**
-A: SignalFox is 90% cheaper, AI-powered, and built for modern sales teams. We focus on real-time signals rather than static data.
+A: SignalFox is 90% cheaper, AI-powered, and built for modern sales teams. We
+focus on real-time signals rather than static data.
 
 **Q: What types of signals do you track?**
-A: Funding rounds, hiring sprees, expansion announcements, leadership changes, and news mentions.
+A: Funding rounds, hiring sprees, expansion announcements, leadership changes,
+and news mentions.
 
 **Q: How accurate is your AI?**
 A: Our AI achieves 95% accuracy in signal classification, verified by human review.
@@ -373,22 +388,29 @@ A: Yes! Email us at <startups@signalfox.com> for special startup pricing.
 ## 📞 Sales Script
 
 **Opening:**
-"Hi [Prospect], this is [Your Name] from SignalFox. I noticed you're in B2B sales - how do you currently track companies for sales signals?"
+"Hi [Prospect], this is [Your Name] from SignalFox. I noticed you're in B2B
+sales - how do you currently track companies for sales signals?"
 
 **Listen to their response, then:**
-"It sounds like you're [manual searching/using expensive tools/not tracking]. Most sales teams we work with face similar challenges."
+"It sounds like you're [manual searching/using expensive tools/not tracking].
+Most sales teams we work with face similar challenges."
 
 **Value Proposition:**
-"SignalFox helps sales teams track companies for funding, hiring, and expansion signals in real-time. Our AI analyzes these signals and alerts you, so you can reach out at the perfect moment."
+"SignalFox helps sales teams track companies for funding, hiring, and expansion
+signals in real-time. Our AI analyzes these signals and alerts you, so you can
+reach out at the perfect moment."
 
 **Differentiator:**
-"The key difference is we're 90% cheaper than tools like ZoomInfo, and we focus on real-time signals rather than static data."
+"The key difference is we're 90% cheaper than tools like ZoomInfo, and we focus
+on real-time signals rather than static data."
 
 **Social Proof:**
-"We're already helping sales teams at companies like [Example 1] and [Example 2] close more deals by reaching out at the right time."
+"We're already helping sales teams at companies like [Example 1] and [Example 2]
+close more deals by reaching out at the right time."
 
 **Offer:**
-"I'd love to give you a 14-day free trial to see if it works for your team. We can also set up a quick demo to show you how it works."
+"I'd love to give you a 14-day free trial to see if it works for your team. We
+can also set up a quick demo to show you how it works."
 
 **Close:**
 "Does next Tuesday at 2 PM work for a 15-minute demo?"

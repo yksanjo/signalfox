@@ -220,4 +220,5 @@ We're not just rebuilding DataFox - we're building it **better**:
 - **Affordable** ($99/month vs $15K+/year)
 - **Built for 2026** (remote sales, AI-first, API-driven)
 
-The original DataFox sold for $100M. With this modern rebuild, we're positioned to capture the same market at 1/10th the price with 10x better technology.
+The original DataFox sold for $100M. With this modern rebuild, we're positioned
+to capture the same market at 1/10th the price with 10x better technology.

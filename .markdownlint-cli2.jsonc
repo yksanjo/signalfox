@@ -1,17 +1,8 @@
 {
   // markdownlint-cli2 configuration for SignalFox
+  // markdownlint defaults apply unmodified; docs are fixed to pass them.
   "config": {
-    "default": true,
-    // Long lines are fine in prose/docs; we don't hard-wrap.
-    "MD013": false,
-    // Allow inline HTML commonly used in docs/badges.
-    "MD033": {
-      "allowed_elements": ["br", "img", "a", "details", "summary", "sub", "sup", "kbd"]
-    },
-    // Duplicate headings are OK unless they are siblings.
-    "MD024": {
-      "siblings_only": true
-    }
+    "default": true
   },
   "ignores": [
     "node_modules/**",

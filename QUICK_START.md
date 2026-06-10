@@ -237,6 +237,9 @@ npm run dev
 
 ## 🎉 You're Ready to Launch
 
-DataFox is a complete, production-ready SaaS application that can generate revenue from day 1. With the original selling for $100M and the market proven by ZoomInfo's $15B+ valuation, you're entering a massive market with a superior product at 1/10th the price.
+DataFox is a complete, production-ready SaaS application that can generate
+revenue from day 1. With the original selling for $100M and the market proven by
+ZoomInfo's $15B+ valuation, you're entering a massive market with a superior
+product at 1/10th the price.
 
 **Next Step**: Run `./setup.sh` and start your first customer conversation today!
