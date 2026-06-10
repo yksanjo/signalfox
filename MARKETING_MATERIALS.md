@@ -1,6 +1,7 @@
 # SignalFox Marketing Materials
 
 ## 🎯 Target Audience
+
 - B2B Sales Teams
 - Startup Founders
 - Venture Capitalists
@@ -9,10 +10,12 @@
 
 ## 📢 Value Proposition
 
-### Primary Message:
-**"SignalFox: AI-powered sales intelligence that's 90% cheaper than ZoomInfo"**
+### Primary Message
 
-### Key Benefits:
+> "SignalFox: AI-powered sales intelligence that's 90% cheaper than ZoomInfo"
+
+### Key Benefits
+
 1. **90% Cost Savings** - $99/month vs $1,250+/month for ZoomInfo
 2. **AI-Powered Signals** - Real-time detection of funding, hiring, expansion
 3. **Actionable Insights** - Not just data, but recommended actions
@@ -21,8 +24,9 @@
 
 ## 📱 Social Media Copy
 
-### Twitter/X Thread:
-```
+### Twitter/X Thread
+
+```text
 🚀 Just launched SignalFox!
 
 After 10 years in B2B sales, I got tired of paying $1,250+/month for ZoomInfo.
@@ -48,8 +52,9 @@ Try it free: https://signal-fox-sandy.vercel.app
 #sales #b2b #saas #startup #ai
 ```
 
-### LinkedIn Post:
-```
+### LinkedIn Post
+
+```text
 🎯 Tired of missing sales opportunities because you didn't know a company just raised funding?
 
 I was too. That's why I built SignalFox.
@@ -83,7 +88,8 @@ Learn more: https://signal-fox-sandy.vercel.app
 
 ## 📧 Email Templates
 
-### Cold Outreach to Sales Teams:
+### Cold Outreach to Sales Teams
+
 **Subject:** Stop missing sales opportunities - Try SignalFox free
 
 **Body:**
@@ -92,6 +98,7 @@ Hi [Name],
 I noticed you're in B2B sales at [Company]. How do you currently track companies for sales signals like funding rounds or hiring sprees?
 
 Most sales teams I talk to either:
+
 1. Pay $1,250+/month for ZoomInfo
 2. Manually search news/LinkedIn (and miss opportunities)
 3. Don't track signals at all (and lose deals)
@@ -124,7 +131,8 @@ Founder, SignalFox
 
 P.S. We've already helped sales teams at [Company 1], [Company 2], and [Company 3] close more deals by reaching out at the right time.
 
-### Newsletter Announcement:
+### Newsletter Announcement
+
 **Subject:** Announcing SignalFox - ZoomInfo alternative for $99/month
 
 **Body:**
@@ -158,7 +166,7 @@ SignalFox automatically tracks companies for these signals and sends you real-ti
 First 50 customers get lifetime 20% discount.
 
 **Try It Free:**
-https://signal-fox-sandy.vercel.app
+<https://signal-fox-sandy.vercel.app>
 
 **Why I Built This:**
 After 10 years in B2B sales, I got tired of paying $1,250+/month for ZoomInfo. I wanted something affordable, modern, and AI-powered.
@@ -194,6 +202,7 @@ Founder, SignalFox
 ## 📊 Case Studies
 
 ### Case Study 1: Startup Sales Team
+
 **Before SignalFox:**
 • Manually checking Crunchbase/LinkedIn
 • Missing 70% of funding announcements
@@ -208,6 +217,7 @@ Founder, SignalFox
 **Quote:** "SignalFox paid for itself in the first week with one deal we would have otherwise missed."
 
 ### Case Study 2: VC Firm
+
 **Before SignalFox:**
 • Using expensive enterprise tools
 • Missing portfolio company signals
@@ -222,6 +232,7 @@ Founder, SignalFox
 **Quote:** "SignalFox helps us support our portfolio companies better and identify new investment opportunities."
 
 ## 🎯 Target Keywords for SEO
+
 - sales intelligence software
 - company signal tracking
 - B2B sales tools
@@ -236,6 +247,7 @@ Founder, SignalFox
 ## 📈 Growth Strategy
 
 ### Phase 1: Launch (Week 1-2)
+
 1. Post on r/sales (500K+ members)
 2. Twitter/X launch thread
 3. LinkedIn announcement
@@ -243,6 +255,7 @@ Founder, SignalFox
 5. Get first 10 paying customers
 
 ### Phase 2: Content Marketing (Month 1-3)
+
 1. Start blog with sales intelligence content
 2. Create case studies
 3. Guest post on sales blogs
@@ -250,6 +263,7 @@ Founder, SignalFox
 5. LinkedIn newsletter
 
 ### Phase 3: Partnerships (Month 3-6)
+
 1. Integrate with popular CRMs
 2. Partner with sales training companies
 3. Affiliate program for sales influencers
@@ -257,6 +271,7 @@ Founder, SignalFox
 5. Reseller program for agencies
 
 ### Phase 4: Scale (Month 6-12)
+
 1. Paid advertising (LinkedIn, Google)
 2. Sales team hiring
 3. Enterprise features
@@ -265,13 +280,16 @@ Founder, SignalFox
 
 ## 💰 Pricing Page Copy
 
-### Headline:
-**"Sales Intelligence That Doesn't Break the Bank"**
+### Headline
 
-### Subheadline:
+> "Sales Intelligence That Doesn't Break the Bank"
+
+### Subheadline
+
 "Get ZoomInfo-level insights at 90% off. Perfect for startups and growth-stage companies."
 
-### Plan Comparison:
+### Plan Comparison
+
 **Starter ($99/month)**
 • Track 50 companies
 • Real-time email alerts
@@ -296,10 +314,12 @@ Founder, SignalFox
 • API access
 • White labeling available
 
-### Social Proof Section:
+### Social Proof Section
+
 "Join 100+ sales teams who trust SignalFox"
 
-### FAQ:
+### FAQ
+
 **Q: How is SignalFox different from ZoomInfo?**
 A: SignalFox is 90% cheaper, AI-powered, and built for modern sales teams. We focus on real-time signals rather than static data.
 
@@ -313,11 +333,12 @@ A: Our AI achieves 95% accuracy in signal classification, verified by human revi
 A: Yes, cancel anytime with no hidden fees. Annual plans get prorated refund.
 
 **Q: Do you offer discounts for startups?**
-A: Yes! Email us at startups@signalfox.com for special startup pricing.
+A: Yes! Email us at <startups@signalfox.com> for special startup pricing.
 
 ## 🚀 Launch Checklist
 
-### Pre-Launch (1 week before):
+### Pre-Launch (1 week before)
+
 - [ ] Finalize website copy
 - [ ] Set up payment processing
 - [ ] Create social media accounts
@@ -327,7 +348,8 @@ A: Yes! Email us at startups@signalfox.com for special startup pricing.
 - [ ] Set up analytics
 - [ ] Test everything end-to-end
 
-### Launch Day:
+### Launch Day
+
 - [ ] Post on r/sales (9 AM EST)
 - [ ] Twitter/X thread (10 AM EST)
 - [ ] LinkedIn post (11 AM EST)
@@ -337,7 +359,8 @@ A: Yes! Email us at startups@signalfox.com for special startup pricing.
 - [ ] Monitor signups
 - [ ] Celebrate first paying customer!
 
-### Post-Launch (Week 1):
+### Post-Launch (Week 1)
+
 - [ ] Follow up with all signups
 - [ ] Collect testimonials
 - [ ] Create case studies
@@ -372,7 +395,8 @@ A: Yes! Email us at startups@signalfox.com for special startup pricing.
 
 ## 🎨 Brand Guidelines
 
-### Colors:
+### Colors
+
 - Primary Blue: #0057FF
 - Success Green: #10B981
 - Warning Orange: #F59E0B
@@ -381,25 +405,29 @@ A: Yes! Email us at startups@signalfox.com for special startup pricing.
 - Text Light: #6B7280
 - Background: #F9FAFB
 
-### Fonts:
+### Fonts
+
 - Headings: Inter Bold
 - Body: Inter Regular
 - Code: JetBrains Mono
 
-### Logo Usage:
+### Logo Usage
+
 - Always use with sufficient white space
 - Minimum size: 24px height
 - Never stretch or distort
 - Use blue (#0057FF) or white on dark backgrounds
 
-### Voice & Tone:
+### Voice & Tone
+
 - Professional but approachable
 - Clear and concise
 - Benefit-focused
 - Confident but not arrogant
 - Helpful and educational
 
-### Messaging Principles:
+### Messaging Principles
+
 1. Focus on customer outcomes, not features
 2. Use simple language (no jargon)
 3. Be specific with numbers and results

@@ -8,7 +8,7 @@
 
 Add these environment variables in your Vercel project settings:
 
-```
+```bash
 # Database (use Supabase or Railway)
 DATABASE_URL="postgresql://..."
 
@@ -37,11 +37,13 @@ APP_URL="https://your-app.vercel.app"
 ## Database Setup
 
 ### Option 1: Supabase (Recommended)
+
 1. Go to [supabase.com](https://supabase.com) and create a new project
 2. Get the connection string from Settings > Database
 3. Run the SQL from `prisma/schema.prisma` in the SQL editor
 
 ### Option 2: Railway
+
 1. Go to [railway.app](https://railway.app) and create a new PostgreSQL service
 2. Get the connection string from the service variables
 3. Run: `npx prisma db push`
@@ -64,6 +66,7 @@ APP_URL="https://your-app.vercel.app"
 ## Scraping Setup
 
 ### Apify Setup
+
 1. Sign up at [apify.com](https://apify.com)
 2. Get your API key from Settings > Integrations
 3. Set up actors for:
@@ -72,6 +75,7 @@ APP_URL="https://your-app.vercel.app"
    - Press release monitoring
 
 ### Running Scrapers
+
 Set up a cron job to run scraping every hour:
 
 ```bash
@@ -88,6 +92,7 @@ npm run scrape
 ## Email Notifications
 
 ### Resend Setup
+
 1. Sign up at [resend.com](https://resend.com)
 2. Verify your domain
 3. Get your API key
@@ -96,41 +101,49 @@ npm run scrape
 ## Monitoring
 
 ### Logging
+
 - Use Vercel Analytics for frontend
 - Use Logtail or Datadog for backend logs
 
 ### Error Tracking
+
 - Sentry for error monitoring
 - Statuspage for uptime monitoring
 
 ## Scaling Considerations
 
 ### Database
+
 - Add indexes for frequently queried fields
 - Set up connection pooling
 - Consider read replicas for heavy read loads
 
 ### Caching
+
 - Use Redis for caching frequent queries
 - Implement CDN for static assets
 
 ### Rate Limiting
+
 - Implement rate limiting for API endpoints
 - Use Upstash Redis for distributed rate limiting
 
 ## Security
 
 ### Environment Variables
+
 - Never commit `.env` files
 - Use Vercel Environment Variables or similar
 - Rotate API keys regularly
 
 ### API Security
+
 - Implement CORS properly
 - Use API keys for external APIs
 - Validate all user input
 
 ### Data Protection
+
 - Encrypt sensitive user data
 - Implement data retention policies
 - Regular security audits
@@ -138,11 +151,13 @@ npm run scrape
 ## Backup Strategy
 
 ### Database Backups
+
 - Daily automated backups
 - Point-in-time recovery
 - Test restore procedures regularly
 
 ### File Storage
+
 - Use S3-compatible storage for uploads
 - Implement versioning
 - Regular backup verification
@@ -150,6 +165,7 @@ npm run scrape
 ## Cost Optimization
 
 ### Monthly Costs Estimate
+
 - Vercel: $20-100/month (depending on traffic)
 - Supabase: $25-100/month (depending on usage)
 - Stripe: 2.9% + $0.30 per transaction
@@ -158,6 +174,7 @@ npm run scrape
 - Resend: $20/month (10,000 emails)
 
 ### Cost Saving Tips
+
 - Use edge functions for compute-heavy tasks
 - Implement caching to reduce API calls
 - Monitor and optimize database queries

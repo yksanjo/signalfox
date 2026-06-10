@@ -3,6 +3,7 @@
 ## Phase 1: Pre-Launch (Days 1-7)
 
 ### Build Audience
+
 1. **Twitter/X Building**
    - Create @DataFoxApp account
    - Follow 100 sales influencers daily
@@ -20,6 +21,7 @@
    - Target: 100 email signups pre-launch
 
 ### Content Creation
+
 1. **Blog Posts**
    - "How to identify companies that just raised funding"
    - "The 3 signals every B2B salesperson should track"
@@ -33,6 +35,7 @@
 ## Phase 2: Launch (Day 8)
 
 ### Launch Strategy
+
 1. **r/sales Launch** (500K+ members)
    - Title: "I built a ZoomInfo alternative for $99/month - tracks funding, hiring, expansion"
    - Content: Show product, pricing, use cases
@@ -54,6 +57,7 @@
    - Personal onboarding offer
 
 ### Launch Goals
+
 - **Signups**: 100 in first week
 - **Paying customers**: 10 in first week
 - **MRR**: $250 from first week
@@ -61,6 +65,7 @@
 ## Phase 3: Growth (Weeks 2-4)
 
 ### Content Marketing
+
 1. **Case Study Series**
    - "How Soundraw uses DataFox to close enterprise deals"
    - Interview with early customers
@@ -77,6 +82,7 @@
    - Sales podcasts: Outreach, Sales Hacker
 
 ### Community Building
+
 1. **Slack Community**
    - Free for all users
    - Share signals, tips
@@ -95,6 +101,7 @@
 ## Phase 4: Scale (Months 2-6)
 
 ### Paid Acquisition
+
 1. **LinkedIn Ads**
    - Target: Sales directors, BDR managers
    - Job titles: "Sales Director", "Head of Sales", "BDR Manager"
@@ -112,6 +119,7 @@
    - Sales newsletters sponsorship
 
 ### SEO Strategy
+
 1. **Keyword Targets**
    - "companies that just raised funding"
    - "B2B sales intelligence"
@@ -131,6 +139,7 @@
 ## Phase 5: Enterprise (Months 7-12)
 
 ### Outbound Sales
+
 1. **Target List**
    - Series A-C SaaS companies
    - 50-500 employees
@@ -148,6 +157,7 @@
    - Competitor comparison
 
 ### Partnerships
+
 1. **Integration Partners**
    - Salesforce
    - HubSpot
@@ -167,18 +177,21 @@
 ## Metrics & KPIs
 
 ### Acquisition Metrics
+
 - **Cost per signup**: < $20
 - **Cost per customer**: < $100
 - **Signup to paid conversion**: > 10%
 - **Trial to paid conversion**: > 30%
 
 ### Engagement Metrics
+
 - **Daily active users**: > 30%
 - **Companies tracked per user**: > 10
 - **Signals received per week**: > 5
 - **Notification open rate**: > 40%
 
 ### Revenue Metrics
+
 - **MRR growth**: 20% month-over-month
 - **Churn rate**: < 5% monthly
 - **LTV**: > $500
@@ -187,16 +200,19 @@
 ## Budget
 
 ### Month 1-3: $2,000
+
 - **Design/assets**: $500
 - **Ads**: $1,000
 - **Tools**: $500 (Apify, OpenAI, etc.)
 
 ### Month 4-6: $5,000
+
 - **Content creation**: $2,000
 - **Ads**: $2,000
 - **Tools**: $1,000
 
 ### Month 7-12: $10,000
+
 - **Outbound sales**: $5,000
 - **Content/ads**: $3,000
 - **Tools**: $2,000
@@ -204,26 +220,31 @@
 ## Timeline
 
 ### Week 1-2: Foundation
+
 - Social media setup
 - Content creation
 - Waitlist building
 
 ### Week 3-4: Launch
+
 - r/sales launch
 - Email campaign
 - Initial customers
 
 ### Month 2-3: Growth
+
 - Content marketing
 - Community building
 - First 50 customers
 
 ### Month 4-6: Scale
+
 - Paid acquisition
 - SEO optimization
 - First 200 customers
 
 ### Month 7-12: Enterprise
+
 - Outbound sales
 - Partnerships
 - First 500 customers
@@ -231,16 +252,19 @@
 ## Unique Selling Propositions
 
 ### For Sales Reps
+
 - "Know which companies just raised money before your competitors"
 - "Get alerts when target accounts are hiring or expanding"
 - "Spend less time researching, more time selling"
 
 ### For Sales Managers
+
 - "Track your entire target account list automatically"
 - "Get team-wide visibility into sales signals"
 - "Integrate with your existing sales stack"
 
 ### For Companies
+
 - "90% cheaper than ZoomInfo"
 - "Built for startups and scale-ups"
 - "Real-time signals, not weekly reports"
@@ -248,6 +272,7 @@
 ## Success Stories to Highlight
 
 ### Early Adopter Stories
+
 1. **Soundraw BD Team**
    - "Closed 3 enterprise deals using DataFox signals"
    - "Saved 10 hours/week on manual research"
